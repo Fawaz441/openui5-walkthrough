@@ -10,7 +10,7 @@
     />
     <Input
         value="{/recipient/name}"
-        description="Hello {/recipient/name}"
+        description="{i18n>helloText} {/recipient/name}"
         valueLiveUpdate="true"
         width="60%"
     />
